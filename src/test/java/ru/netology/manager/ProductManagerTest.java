@@ -42,6 +42,7 @@ public class ProductManagerTest {
         Product[] expected = new Product[]{three};
         assertArrayEquals(actual, expected);
     }
+
     @Test
     public void shouldSearchByAuthor() {
 
@@ -49,6 +50,7 @@ public class ProductManagerTest {
         Product[] expected = new Product[]{one, four};
         assertArrayEquals(actual, expected);
     }
+
     @Test
     public void shouldSearchByAuthorFindNothing() {
 

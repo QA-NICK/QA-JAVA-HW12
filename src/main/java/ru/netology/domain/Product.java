@@ -49,7 +49,7 @@ public class Product {
                 price == product.price &&
                 Objects.equals(name, product.name);
 
-}
+    }
 
     @Override
     public int hashCode() {

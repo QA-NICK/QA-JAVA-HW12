@@ -13,7 +13,7 @@ public class ProductManager {
     }
 
 
-    public void add (Product product) {
+    public void add(Product product) {
         repository.save(product);
     }
 
